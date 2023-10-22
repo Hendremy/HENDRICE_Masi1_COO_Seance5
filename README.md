@@ -1,8 +1,13 @@
 # Cas 1
-Blabla
+## Design Pattern - Builder
+
 
 # Cas 2
-Blabla
+
+## Design Pattern - Builder
+
+
 
 # Cas 3
-Blabla
+
+## Design Pattern - State

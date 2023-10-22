@@ -1,18 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f1fbd6cd-9727-4e11-bd9f-956afa67faf5" name="Changes" comment="" />
+    <list default="true" id="f1fbd6cd-9727-4e11-bd9f-956afa67faf5" name="Changes" comment="Created cases main classes">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cas2/CustomHeroBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cas2/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cas2/HeroBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cas2/HeroClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cas2/HeroDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cas2/Race.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seance5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Seance5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cas1/Cas1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cas1/Cas1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cas1/MyHttpURLConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cas1/MyHttpURLConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cas1/MyUriBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cas2/Cas2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cas2/Cas2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cas3/Cas3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cas3/Cas3.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2X5OFZqxkjZanPWUEGIwhcr2w5e" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -23,11 +57,47 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cas3" />
+      <recent name="cas2" />
+      <recent name="cas1" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Cas2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cas2.Cas2" />
+      <module name="Seance5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cas2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Cas2" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -36,8 +106,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697915372942</updated>
-      <workItem from="1697915373958" duration="1000" />
+      <workItem from="1697915373958" duration="1425000" />
+      <workItem from="1697992624930" duration="8744000" />
     </task>
+    <task id="LOCAL-00001" summary="Created cases main classes">
+      <option name="closed" value="true" />
+      <created>1697916879222</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697916879222</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created cases main classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created cases main classes" />
   </component>
 </project>
