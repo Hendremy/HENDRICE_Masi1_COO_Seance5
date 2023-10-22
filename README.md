@@ -13,3 +13,5 @@ Ref: https://refactoring.guru/design-patterns/builder
 # Cas 3
 
 ## Design Pattern - State
+
+Ref: https://refactoring.guru/design-patterns/state
