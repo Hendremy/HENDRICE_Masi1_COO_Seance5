@@ -1,0 +1,53 @@
+@startuml
+
+class Hero{
+  - race : String
+  - heroClass : String
+  - name : String
+  - weapon : String
+  - armor : String
+  + setRace(String) : void
+  + setHeroClass(String) : void
+  + setName(String) : void
+  + setWeapon(String) : void
+  + setArmor(String) : void
+  + getInfo() : String
+}
+
+interface HeroBuilder{
+  + setRace(String) : void
+  + setHeroClass(String) : void
+  + setName(String) : void
+  + setWeapon(String) : void
+  + setArmor(String) : void
+  + reset() : void
+  + getResult() : Hero
+}
+
+class CustomHeroBuilder{
+  - hero : Hero
+  + setRace(String) : void
+  + setHeroClass(String) : void
+  + setName(String) : void
+  + setWeapon(String) : void
+  + setArmor(String) : void
+  + reset() : void
+  + getResult() : Hero
+}
+
+class HeroDirector{
+  + makeElf(HeroBuilder) : Hero
+  + makeHuman(HeroBuilder) : Hero
+}
+
+class Main{
+}
+
+
+HeroDirector --> HeroBuilder
+HeroBuilder --> Hero
+HeroBuilder <|-- CustomHeroBuilder
+HeroDirector <-- Main
+HeroBuilder <-- Main
+
+@enduml

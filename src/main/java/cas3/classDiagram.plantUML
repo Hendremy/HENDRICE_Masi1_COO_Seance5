@@ -1,0 +1,49 @@
+@startuml
+
+class AlarmClock{
+  - state : ClockState
+  - alarmTime : LocalTime
+  + enterAlarmTime(LocalTime)
+  + setAlarmTime(LocalTime)
+  + setState(ClockState)
+  + checkTime()
+  + clickPower()
+}
+
+interface ClockState{
+  + checkTime() : void
+  + enterAlarmTime(LocalTime) : void
+  + clickPower() : void
+}
+
+class OffClockState{
+  - clock : AlarmClock
+  + checkTime() : void
+  + enterAlarmTime(LocalTime) : void
+  + clickPower() : void
+}
+
+class OnClockState{
+  - clock : AlarmClock
+  + checkTime() : void
+  + enterAlarmTime(LocalTime) : void
+  + clickPower() : void
+}
+
+class TriggeredClockState{
+  - clock : AlarmClock
+  + checkTime() : void
+  + enterAlarmTime(LocalTime) : void
+  + clickPower() : void
+}
+
+AlarmClock *-- ClockState
+
+TriggeredClockState *-- AlarmClock
+OnClockState *-- AlarmClock
+OffClockState *-- AlarmClock
+
+ClockState <|-- OffClockState
+ClockState <|-- OnClockState
+ClockState <|-- TriggeredClockState
+@enduml
