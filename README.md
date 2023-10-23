@@ -17,13 +17,18 @@ Cet objet URL permet de créer un HttpURLConnection. Ce dernier peut être consi
 
 Dans ce cas-ci, il n'y a pas de Directeur impliqué.
 
+## Références :
+
+Design pattern: (https://refactoring.guru/design-patterns/builder)
+
+Utilisation URIBuilder & HttpURLConnection : (https://www.digitalocean.com/community/tutorials/java-httpurlconnection-example-java-http-request-get-post)
+
 ## Diagramme de classes :
 
-![Diagram](./src/main/java/cas1/classDiagram.png)
+![Diagramme de classe du cas n°1](./src/main/java/cas1/classDiagram.png)
 
-## Références : 
-Design pattern: https://refactoring.guru/design-patterns/builder
-Utilisation URIBuilder & HttpURLConnection : https://www.digitalocean.com/community/tutorials/java-httpurlconnection-example-java-http-request-get-post
+
+\newpage
 
 # Cas 2
 
@@ -42,12 +47,14 @@ Cela pourrait être utile si l'on souhaite appliquer différentes règles lors d
 
 Dans ce cas-ci, j'ai ajouté un Directeur. Son rôle est d'ordonner la création d'objets Hero selon un schéma prédéfini en utilisant un HeroBuilder.
 
-## Diagramme de classes :
-
-![Diagram](./src/main/java/cas2/classDiagram.png)
-
 ## Références :
 Design pattern: https://refactoring.guru/design-patterns/builder
+
+## Diagramme de classes :
+
+![Diagramme de classes du cas n°2](./src/main/java/cas2/classDiagram.png)
+
+\newpage
 
 # Cas 3
 
@@ -65,10 +72,10 @@ De plus, chaque état est indépendant des autres états, et leur développement
 Pour cette problématique, j'ai défini trois classes représentant les états "Alarme off", "Alarme on" et "Alarme sonne". 
 Le changement d'état s'effectue par les classes états elle-même lorsqu'il y a besoin (e.g.: le bouton est appuyé pour éteindre l'alarme, l'heure de l'alarme a été atteint, ...).
 
+### Références :
+Design pattern: https://refactoring.guru/design-patterns/state
 
 ## Diagramme de classes : 
 
-![Diagram](./src/main/java/cas3/classDiagram.png)
+![Diagramme de classes du cas n°3](./src/main/java/cas3/classDiagram.png)
 
-### Références :
-Design pattern: https://refactoring.guru/design-patterns/state
